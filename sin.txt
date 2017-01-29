@@ -1,0 +1,43 @@
+Object:
+0,Angles in the circl
+1,Sin Alfa
+2,Diameter
+3,Angle CGB
+4,Angle CAB
+5,Angle GCB
+6,ABC
+
+Relation:
+3,4,2
+3,1,0
+3,0,0
+5,2,0
+6,5,0
+6,4,0
+6,3,0
+
+Properties:
+0,Angles based on an arc equal to one
+1,sin Alfa = sin (Pi - Alfa)
+2,D = 2R
+2,Angle based on the diameter = 90
+2,D opposite to angle 90
+3,The arc CB
+3,Angle = Alfa or Pi - Alfa
+5,Angle based on the diameter
+6,D = GB
+6,BC = (side opposite to corner 90) * sin( angle based on CB)
+
+EvidenceCriterion:
+6,Angles based on an arc equal to one
+6,sin Alfa = sin (Pi - Alfa)
+6,D = 2R
+6,Angle based on the diameter = 90
+6,D opposite to angle 90
+6,The arc CB
+6,Angle = Alfa or Pi - Alfa
+6,Angle based on the diameter
+6,0,0
+6,1,0
+6,2,0
+4,3,2
